@@ -22,6 +22,7 @@ func main() {
 	}
 	fmt.Println(produto1, produto1.precoComDesconto())
 
-	produto2 := produto{"Notebook", 1989.90, 0.10}
+	produto2 := produto{
+		"Notebook", 1989.90, 0.10}
 	fmt.Println(produto2, produto2.precoComDesconto())
 }
