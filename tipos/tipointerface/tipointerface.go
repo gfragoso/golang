@@ -7,8 +7,12 @@ type curso struct {
 }
 
 func main() {
+
 	var coisa interface{}
 	fmt.Println(coisa)
+
+	var otacoisa any = "ASD"
+	fmt.Println(otacoisa)
 
 	coisa = 3
 	fmt.Println(coisa)
